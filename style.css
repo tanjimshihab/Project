@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Fira Sans", sans-serif;
+}
+
+/* Navigation */
+
+
+.navbar{
+    background-image: linear-gradient(to right,#a517ba,#5f1782);
+    padding: 0 !important;
+    border-bottom: 1px solid white;
+}
+.navbar-brand img{
+    height: 40px;
+}
+.navbar-nav li{
+     padding: 0 10px;
+}
+.navbar-nav a{
+    color: #fff;
+    font-weight: 600;
+}
+.navbar-toggler{
+    color: #fff;
+}
+.fa-solid{
+    font-size: 30px;
+    
+}
+.navbar-toggler{
+    outline: none !important;
+}
+
+/* Heroarea */
+
+#heroarea{
+    background-image: linear-gradient(to right,#a517ba,#5f1782);
+    color: #fff;
+    padding-top: 5%;
+}
+.play-btn{
+    width: 45px;
+    margin: 20px;
+}
+.link-text{
+    font-size: 25px;
+}
