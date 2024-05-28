@@ -49,3 +49,33 @@ body{
 .link-text{
     font-size: 25px;
 }
+
+
+/* Section-1 */
+
+
+#section-1{
+padding: 80px 0;
+}
+
+
+.title::after{
+    content: '';
+    background-color: #7b1798;
+    height: 5px;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+    display: block;
+    transform: translateY(8px);
+}
+
+.button-1{
+    background-image: linear-gradient(to right,#a517ba,#5f1782);
+    
+    box-shadow: none;
+    border-radius: 20px;
+    
+
+}
